@@ -46,3 +46,9 @@ main {
     border: none;
     background-color: transparent;
 }
+
+.info-button:hover {
+    background-color: #000;
+    color: #ffffff;
+    transition: background-color 0.3s linear;
+}
