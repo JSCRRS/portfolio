@@ -12,5 +12,5 @@ app.get("*", function (req, res) {
 });
 
 app.listen(process.env.PORT || 3001, function () {
-    console.log("I'm listening.");
+    console.log("Running on port 3001.");
 });
