@@ -29,11 +29,15 @@ main {
     margin-right: 60px;
 }
 
+/* MAIN - INTRO-TEXT */
+
 .introduction {
     font-size: 24px;
     font-weight: 400;
     line-height: 1.2;
 }
+
+/* MAIN - BUTTONS */
 
 .info-button {
     width: 100px;
@@ -51,4 +55,18 @@ main {
     background-color: #000;
     color: #ffffff;
     transition: background-color 0.3s linear;
+}
+
+/* MAIN - TOOLTIP */
+
+.email-tooltip {
+    position: absolute;
+    transform: translateX(-200%);
+    z-index: 1;
+}
+
+.tooltip-open .email-tooltip {
+    margin-top: 50px;
+    margin-left: 91px;
+    transform: translateX(-100%);
 }

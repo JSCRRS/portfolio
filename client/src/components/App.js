@@ -2,6 +2,16 @@ export default function App() {
     function copyEmail() {
         const email = "myEmail";
         navigator.clipboard.writeText(email);
+        const tooltip = document.getElementsByClassName("email-tooltip");
+        tooltip.innerHTML = "copied!";
+    }
+
+    function onEnter() {
+        document.body.classList.toggle("tooltip-open");
+    }
+
+    function onLeave() {
+        document.body.classList.toggle("tooltip-open");
     }
 
     return (
@@ -13,8 +23,14 @@ export default function App() {
                     solution-oriented mindset that is complemented by my
                     curiosity and empathetic perspective as anthropologist.
                 </p>
+                <span className="email-tooltip">click to copy</span>
                 <div className="person-info">
-                    <button className="info-button" onClick={copyEmail}>
+                    <button
+                        className="info-button"
+                        onClick={copyEmail}
+                        onMouseOver={onEnter}
+                        onMouseOut={onLeave}
+                    >
                         email
                     </button>
                     <button className="info-button">linkedIn</button>
