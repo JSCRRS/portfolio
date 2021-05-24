@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 0;
     height: 100vh;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -57,11 +56,21 @@ main {
     transition: background-color 0.3s linear;
 }
 
+.info-button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.info-button a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* MAIN - TOOLTIP */
 
 .email-tooltip {
     position: absolute;
-    transform: translateX(-200%);
+    transform: translateX(-500%);
     z-index: 1;
 }
 
