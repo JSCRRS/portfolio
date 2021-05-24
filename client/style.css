@@ -56,16 +56,6 @@ main {
     transition: background-color 0.3s linear;
 }
 
-.info-button a {
-    text-decoration: none;
-    color: #000;
-}
-
-.info-button a:hover {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 /* MAIN - TOOLTIP */
 
 .email-tooltip {

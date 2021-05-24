@@ -36,27 +36,20 @@ export default function App() {
                     >
                         email
                     </button>
-
-                    <button className="info-button">
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://www.linkedin.com/in/joshua-musiol"
-                        >
-                            linkedIn
-                        </a>
-                    </button>
-
-                    <button className="info-button">
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href="https://github.com/JSCRRS"
-                        >
-                            github
-                        </a>
-                    </button>
-
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/in/joshua-musiol"
+                    >
+                        <button className="info-button"> linkedIn</button>
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://github.com/JSCRRS"
+                    >
+                        <button className="info-button"> github</button>
+                    </a>
                     <button className="info-button">cv</button>
                 </div>
             </div>
