@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function CV() {
     return (
         <div className="cv-wrapper">
@@ -171,6 +173,9 @@ export default function CV() {
                     </div>
                 </div>
             </section>
+            <Link className="link-back" to="/">
+                back
+            </Link>
         </div>
     );
 }

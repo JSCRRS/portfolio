@@ -96,6 +96,11 @@ h3 {
     margin: 0 auto;
 }
 
+.link-back {
+    position: relative;
+    left: 100%;
+}
+
 /* CV - HEADER*/
 
 .cv-header {
