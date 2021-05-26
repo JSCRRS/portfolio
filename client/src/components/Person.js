@@ -38,14 +38,14 @@ export default function Person() {
                 </button>
                 <a
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/joshua-musiol"
                 >
                     <button className="info-button"> linkedIn</button>
                 </a>
                 <a
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     href="https://github.com/JSCRRS"
                 >
                     <button className="info-button"> github</button>
