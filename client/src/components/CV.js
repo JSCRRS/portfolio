@@ -11,7 +11,14 @@ export default function CV() {
                     <div className="profile-name">
                         <h4>Joshua Musiol</h4>
                     </div>
-                    <div>Junior Fullstack Developer in Berlin</div>
+                    <div>
+                        <p>Junior Fullstack Developer in Berlin</p>
+                    </div>
+                    <div className="link">
+                        <a href="#" target="_blank" rel="noreferrer">
+                            musiol.dev
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

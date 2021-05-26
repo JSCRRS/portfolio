@@ -96,6 +96,22 @@ main {
     border-radius: 50%;
 }
 
-.profile-name h3 {
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-details h4,
+p {
     margin: 0;
+}
+
+.profile-details a {
+    text-decoration: none;
+    color: #000;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
 }
