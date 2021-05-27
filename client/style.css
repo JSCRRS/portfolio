@@ -211,4 +211,24 @@ h3 + .experience {
     .person-info {
         text-align: center;
     }
+    .info-button:active {
+        background-color: #000;
+        color: #ffffff;
+        transition: background-color 0.3s linear;
+    }
+    .cv-wrapper {
+        margin-top: 150px;
+    }
+    .projects {
+        margin: 0;
+    }
+    .link-back {
+        bottom: 2%;
+    }
+    .link-back:active {
+        text-decoration: underline;
+    }
+    a:active {
+        text-decoration: underline;
+    }
 }
