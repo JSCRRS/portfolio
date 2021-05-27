@@ -199,3 +199,16 @@ h3 + .experience {
 .project-description p {
     color: #666;
 }
+
+@media screen and (max-width: 767px) {
+    .introduction {
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+    .info-button {
+        margin-bottom: 15px;
+    }
+    .person-info {
+        text-align: center;
+    }
+}
