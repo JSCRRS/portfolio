@@ -4,20 +4,22 @@ export default function Person() {
     function copyEmail() {
         const email = "myEmail";
         navigator.clipboard.writeText(email);
-        const tooltip = document.getElementsByClassName("email-tooltip");
-        console.log(tooltip.innerHTML);
-
+        const tooltip = document.getElementById("email-tooltip");
         tooltip.innerHTML = "copied!";
-        console.log(tooltip.innerHTML);
     }
 
-    function onEnter() {
-        document.body.classList.toggle("tooltip-open");
+    function showTooltip() {
+        const tooltip = document.createElement("p");
+        const text = document.createTextNode("click to copy");
+        tooltip.appendChild(text);
+        document.getElementById("email-tooltip").appendChild(tooltip);
     }
 
-    function onLeave() {
-        document.body.classList.toggle("tooltip-open");
+    function hideTooltip() {
+        const tooltip = document.getElementById("email-tooltip");
+        tooltip.removeChild(tooltip.firstChild);
     }
+
     return (
         <div className="person">
             <p className="introduction">
@@ -26,13 +28,13 @@ export default function Person() {
                 mindset that is complemented by my curiosity and empathetic
                 perspective as anthropologist.
             </p>
-            <p className="email-tooltip">click to copy</p>
+            <div id="email-tooltip"></div>
             <div className="person-info">
                 <button
                     className="info-button"
                     onClick={copyEmail}
-                    onMouseOver={onEnter}
-                    onMouseOut={onLeave}
+                    onMouseEnter={showTooltip}
+                    onMouseLeave={hideTooltip}
                 >
                     email
                 </button>
