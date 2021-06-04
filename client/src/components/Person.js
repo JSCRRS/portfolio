@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Person() {
     function copyEmail() {
-        const email = "myEmail";
+        const email = "myEmail@email.com";
         navigator.clipboard.writeText(email);
         const tooltip = document.getElementById("email-tooltip");
         tooltip.innerHTML = "copied!";
@@ -34,7 +34,9 @@ export default function Person() {
                     className="info-button"
                     onClick={copyEmail}
                     onMouseEnter={showTooltip}
+                    onTouchStart={showTooltip}
                     onMouseLeave={hideTooltip}
+                    onTouchEnd={hideTooltip}
                 >
                     email
                 </button>
