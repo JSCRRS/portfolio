@@ -74,7 +74,8 @@ h3 {
     background-color: transparent;
 }
 
-.info-button:hover {
+.info-button:hover,
+.project-button:hover {
     background-color: #000;
     color: #ffffff;
     transition: background-color 0.3s linear;
@@ -86,6 +87,47 @@ h3 {
     position: absolute;
     margin-top: 50px;
     margin-left: 10px;
+}
+
+/* MAIN - PROJECTS */
+
+.project-wrapper {
+    display: flex;
+}
+
+.project-img {
+    margin-right: 0.9375rem;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    outline: solid 2px #000;
+}
+
+.project-title {
+    font-size: 16px;
+    color: #1a202c;
+}
+
+.project-text {
+    line-height: 1.5;
+    margin-right: 0.9375rem;
+    color: #595959;
+}
+
+.project-description {
+    max-width: 230px;
+    font-size: 12px;
+}
+
+.project-button {
+    align-self: center;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 13px;
+    outline: solid 2px #000;
+    border: none;
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 /* CV */

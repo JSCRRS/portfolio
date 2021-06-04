@@ -1,6 +1,5 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import Person from "./Person";
-
 import CV from "./CV";
 
 export default function App() {
