@@ -33,7 +33,7 @@ export default function CV() {
                     </p>
                 </div>
             </section>
-            <section className="projects">
+            <section className="projects-list">
                 <h3>Projects</h3>
                 <div className="experience">
                     <div className="date">
