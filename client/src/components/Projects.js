@@ -9,10 +9,10 @@ export default function Projects() {
                 ></img>
                 <div className="project-details">
                     <div className="project-text">
-                        <p className="project-title">Title</p>
+                        <p className="project-title">Cycle</p>
                         <p className="project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do ei
+                            An app that takes inspiration from the Pomodoro
+                            technique.
                         </p>
                     </div>
                     <button className="project-button">view</button>
@@ -26,10 +26,10 @@ export default function Projects() {
                 ></img>
                 <div className="project-details">
                     <div className="project-text">
-                        <p className="project-title">Title</p>
+                        <p className="project-title">Duck Club</p>
                         <p className="project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do ei
+                            A social network for people who love ducks. Connect,
+                            make friends.
                         </p>
                     </div>
                     <button className="project-button">view</button>
@@ -43,10 +43,10 @@ export default function Projects() {
                 ></img>
                 <div className="project-details">
                     <div className="project-text">
-                        <p className="project-title">Title</p>
+                        <p className="project-title">Image Board</p>
                         <p className="project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do ei
+                            A space for connoisseurs of Japanese woodblock
+                            prints.
                         </p>
                     </div>
                     <button className="project-button">view</button>
@@ -60,10 +60,10 @@ export default function Projects() {
                 ></img>
                 <div className="project-details">
                     <div className="project-text">
-                        <p className="project-title">Title</p>
+                        <p className="project-title">Petition</p>
                         <p className="project-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do ei
+                            A website where you publicly pledge to live a more
+                            minimalist life.
                         </p>
                     </div>
                     <button className="project-button">view</button>
