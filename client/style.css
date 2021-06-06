@@ -94,12 +94,14 @@ h3 {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
 
 .project-wrapper {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .project-img {
